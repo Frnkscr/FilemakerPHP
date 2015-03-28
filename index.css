@@ -1,0 +1,37 @@
+/*
+DRY :  Dont Repet yourself;
+Progressive Enhancement;  de lo basico a lo mas avanzado
+*/
+
+
+/*Selector Universal
+*{
+	color:red;
+}*/
+html{
+	font-size: 80%;
+	padding-bottom:  0%;
+}
+
+header, .background-blue {
+	
+	font-family: Helvetica,Arial,sans-serif;
+	color: 113B75;
+	position: center;
+	font-size: 16px; /*Fallback*/
+	font-size: 1rem;
+	
+}
+
+ {
+	
+}
+
+.container,.background-blue {
+	display: flex;
+	background-color: #113B75;
+	font-family: Helvetica,Arial,sans-serif;
+	color : white; 
+	font-size: 2rem;
+
+}
